@@ -34,7 +34,7 @@ def uniform_sample(val, error):
 
 
 def get_graph_arrays(line_value, x_axis, model):
-    line1 = line_value
+    line1 = line_value 
     # x_axis = np.linspace(0, 6, num=100)
     x_b1 = np.zeros((len(x_axis))) + x_b[line1 * 7]
     t_1 = np.zeros((len(x_axis))) + t[line1 * 7]
